@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+#header_Container{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+.Myntra_logo{
+  height: 45px;
+}
+.logo_Container{
+  margin-left: 4%;
+}
+.action_bar{
+  margin-right: 4%;
+}
+.nav_bar{
+  min-width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav_bar a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 27px 0;
+  border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover{
+  border-bottom: 5px solid #f54e77;
+}
+.nav_bar a sup{
+  font-size: 10px;
+  color: red;
+}
+.search_bar{
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon{
+  box-sizing: content-box;
+  background-color: #f5f5f6;
+  height: 20px;
+  padding: 10px;
+  color: #282c3f;
+  border-radius: 8px 0 0 8px;
+}
+.search_input{
+  background-color: #f5f5f6;
+  color: #696e79;
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 0 8px 8px 0;
+  border: 0;
+  font-size: 15px;
+}
+.action_bar{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.action_Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Banner CSS Start */
+.banner_container{
+  margin: 50px 0 50px 0;
+}
+.banner_imag{
+  width: 100%;
+}
+.category_heading{
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.6em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.category_item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sale_item{
+  width: 250px;
+}
+
+/* Footer CSS Start */
+#footer_container{
+  padding: 30px 0px 40px 0px;
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column{
+  display: flex;
+  flex-direction: column;
+}
+.footer_column h3{
+  color: #696e79;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.footer_column a{
+  color: #696b79;
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.copyright{
+  background: #FAFBFC;
+  color: #696b79;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px 0;
+}
+
+.items-container{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item-container{
+  margin-bottom: 10px;
+  width: 250px;
+}
+.item-img{
+  width: 100%;
+}
+.rating{
+  font-size: 12px;
+  font-weight: 700;
+}
+.company-name{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #282c3f;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.item-name{
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+.price{
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+}
+.current-price{
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price{
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount{
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn-bag-cart{
+  margin-top: 8px;
+  width: 100%;
+  font-size: 18px;
+  background-color: rgb(33, 155, 33);
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.bag-item-count{
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #ffffff;
+  left: 13px;
+  top: -44px;
+  font-weight: 700;
+  cursor: pointer;
+}

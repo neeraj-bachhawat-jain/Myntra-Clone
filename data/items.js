@@ -1,0 +1,138 @@
+const items = [
+  {
+    id: '001',
+    item_image: 'Images/items/1.jpg',
+    company_name: 'Carlton London',
+    item_name: 'Rhodium-Plated CZ Floral Studs',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 1045,
+      current_price: 606,
+      discounts: 42,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },
+  {
+    id: '002',
+    item_image: 'Images/items/2.jpg',
+    company_name: 'CUKOD',
+    item_name: 'Women Padded Halter Neck Swimming Dress',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 2599,
+      current_price: 1507,
+      discounts: 42,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },
+  {
+    id: '003',
+    item_image: 'Images/items/3.jpg',
+    company_name: 'NUEVOSDAMAS',
+    item_name: 'Women Red & White Printed A-Line Knee-Length Skirts',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 1599,
+      current_price: 495,
+      discounts: 69,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  }, 
+  {
+    id: '004',
+    item_image: 'Images/items/4.jpg',
+    company_name: 'ADIDAS',
+    item_name: 'Indian Cricket ODI Jersey',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 999,
+      current_price: 999,
+      discounts: 0,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },
+  {
+    id: '005',
+    item_image: 'Images/items/5.jpg',
+    company_name: 'Roadster',
+    item_name: 'Pure Cotton T-shirt',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 1399,
+      current_price: 489,
+      discounts: 65,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },
+  {
+    id: '006',
+    item_image: 'Images/items/6.jpg',
+    company_name: 'Nike',
+    item_name: 'Men ReactX Running Shoes',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 14995,
+      current_price: 14995,
+      discounts: 0,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },
+  {
+    id: '007',
+    item_image: 'Images/items/7.jpg',
+    company_name: 'The Indian Garage Co',
+    item_name: 'Men Slim Fit Regular Shorts',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 1599,
+      current_price: 639,
+      discounts: 60,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  }, 
+  {
+    id: '008',
+    item_image: 'Images/items/8.jpg',
+    company_name: 'Nivea',
+    item_name: 'Men Fresh Deodrant 150ml',
+    return_period: 14,
+    delivery_date: '25 Feb 2025',
+    price: {
+      original_price: 285,
+      current_price: 142,
+      discounts: 50,
+    },
+    rating:{
+      stars: 4.5, 
+      noOfReviews: 1400,
+    },
+  },          
+];
