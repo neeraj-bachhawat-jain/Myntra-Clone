@@ -14,9 +14,9 @@ function displayBagSummary(){
   let totalDiscount = 0;
   let CONVENIENCE_FEE = 0;
   if(bagItemsObjects.length === 0){
-    CONVENIENCE_FEE = 99;
-  }else{
     CONVENIENCE_FEE = 0;
+  }else{
+    CONVENIENCE_FEE = 99;
   }
 
   bagItemsObjects.forEach(bagItem => {
