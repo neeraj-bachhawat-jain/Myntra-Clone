@@ -12,7 +12,12 @@ function displayBagSummary(){
   let totalItem = bagItemsObjects.length;
   let totalMRP = 0;
   let totalDiscount = 0;
-  const CONVENIENCE_FEE = 99;
+  let CONVENIENCE_FEE = 0;
+  if(bagItemsObjects.length === 0){
+    CONVENIENCE_FEE = 99;
+  }else{
+    CONVENIENCE_FEE = 0;
+  }
 
   bagItemsObjects.forEach(bagItem => {
     totalMRP += bagItem.price.original_price;
